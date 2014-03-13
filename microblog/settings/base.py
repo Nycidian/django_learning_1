@@ -47,7 +47,7 @@ MANAGERS = ADMINS
 
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'aqueous-brushlands-3135.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.herokuapp.com']
 
 
 # Application definition
