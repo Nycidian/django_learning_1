@@ -114,15 +114,15 @@ USE_TZ = True
 
 #directories
 
-MEDIA_ROOT = root("..","uploads")
+MEDIA_ROOT = root("..","..","uploads")
 MEDIA_URL = ""
 
 
-STATIC_ROOT = root("..","static")
+STATIC_ROOT = root("..","..","static")
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    root("assets"),
+    root("..","assets"),
 )
 
 TEMPLATE_DIRS = (
